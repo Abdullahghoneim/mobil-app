@@ -1,0 +1,131 @@
+$em-text: #199F8C;
+body {
+    font-family: 'Lato', sans-serif;
+    padding-top: 50px;
+}
+
+.em-text {
+    color: $em-text !important;
+}
+
+.nav-link {
+    padding: 0.85rem 1.5rem;
+    margin: 0px 20px;
+    font-size: 15px;
+}
+
+.active {
+    color: #555;
+    background-color: #e7e7e7;
+}
+
+.navbar {
+    padding: 0;
+}
+
+span {
+    color: $em-text;
+}
+
+#middle {
+    h3 {
+        color: #199F8C;
+        margin-top: 30px;
+    }
+    img {
+        border-radius: 15px;
+    }
+    p {
+        color: rgb(197, 190, 190);
+    }
+}
+
+.navbar-brand {
+    padding: .65rem;
+    font-size: 20px;
+}
+
+.col-lg-4 {
+    margin-bottom: 20px;
+}
+
+section {
+    padding: 40px 0 40px 0;
+}
+
+.jumbotron {
+    background: #199F8C url("../img/women-1134987_1920.jpg") no-repeat;
+    background-attachment: fixed;
+    height: 510px;
+    background-color: #199F8C;
+    overflow: hidden;
+    h1 {
+        margin-top: 40px;
+    }
+    p {
+        color: #e7e7e7;
+        margin-bottom: 40px;
+    }
+    .app-btn {
+        margin-right: 20px;
+        width: 40%;
+    }
+    img {
+        width: 75%;
+    }
+}
+
+section#feature {
+    background-color: #199F8C;
+    text-align: center;
+    h1 {
+        color: rgb(145, 201, 195);
+        margin-bottom: 30px;
+    }
+    h4 {
+        text-align: center;
+        margin-top: 10px;
+    }
+}
+
+#title-bar {
+    background-color: #199F8C;
+    padding: 30px;
+    h1 {
+        color: #e7e7e7;
+    }
+    .fab {
+        margin-right: 20px;
+        padding: 20px;
+        color: #E1E7E7
+}
+}
+.frist{
+    p{
+        line-height: 1.7rem
+    }
+}
+
+#contact {
+    button {
+        margin-top: 30px;
+    }
+}
+
+footer {
+    background: lighten( #000000, 20%);
+    padding: 30px 0 30px 0;
+    color: #e7e7e7;
+    li {
+        list-style: none;
+        float: left;
+        padding: 0 20px 0 20px;
+        color: #199F8C !important;
+    }
+    a {
+        color: #e7e7e7;
+    }
+    p {
+        float: right;
+    }
+}
